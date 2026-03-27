@@ -584,6 +584,11 @@ body {
         transform: rotate(-45deg) translate(7px, -7px);
     }
 
+    /* Ocultar link Home no mobile */
+    .nav-link[href="#home"] {
+        display: none;
+    }
+
     .hero {
         height: 400px;
         background-attachment: scroll;
